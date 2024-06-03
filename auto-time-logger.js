@@ -41,7 +41,7 @@
         setTimeout(() => {
             sendMessageWithTime();  // Initial call to send message immediately when the script runs
             setInterval(sendMessageWithTime, 3600000); // Set interval to send message every hour
-        }, 5000); // Delay of 5 seconds
+        }, 25000); // Delay of 30 seconds
     }
 
     window.addEventListener('load', initialize);
